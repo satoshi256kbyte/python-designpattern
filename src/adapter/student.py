@@ -6,7 +6,7 @@ class Student:
 
     year: int = 0
     department: str
-    cource: str
+    course: str
     num: int = 0
 
     def __init__(self, year: int, department: str, course: str):
@@ -15,7 +15,6 @@ class Student:
             year (int): 年度
             department (str): 学部
             course (str): 学科
-            num (int): 連番
         """
         self.year = year
         self.department = department

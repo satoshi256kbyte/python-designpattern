@@ -4,7 +4,7 @@ classDiagram
     class Student{
         year: int
         department: string
-        cource: string        
+        course: string        
         num : int
         string code()
     }
@@ -12,17 +12,17 @@ classDiagram
 
 ```mermaid
 classDiagram
-    Student --> ReiwaStudent : extends
-    ReiwaStudent <|-- SeirekiInterface : implements
-    ReiwaStudent
+    Student --> SeirekiStudent : extends
+    SeirekiStudent <|-- SeirekiInterface : implements
+    SeirekiStudent
     class Student{
         year: int
         department: string
-        cource: string               
+        course: string               
         num : int
         string code()
     }
-    class ReiwaStudent{
+    class SeirekiStudent{
         string seireki_cd()
     }
     class SeirekiInterface {

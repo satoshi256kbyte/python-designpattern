@@ -3,7 +3,7 @@ from student import Student
 from seireki_interface import SeirekiInterface
 
 
-class ReiwaStudent(Student, SeirekiInterface):
+class SeirekiStudent(Student, SeirekiInterface):
     """
     Adapterパターン　生徒(西暦Ver)クラス
     """
