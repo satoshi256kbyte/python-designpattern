@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  python:
+    build: .
+    volumes:
+      - .:/code
+    tty: true # これがないと```docker-compose up```の後にコンテナが終了してしまう。
